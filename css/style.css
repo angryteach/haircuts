@@ -1,23 +1,24 @@
-/* Fonts */
+/* Basics */
 
-* {
-	color: #1b1b3a;
-}
+
+/* Standard structure */
 
 body {
-	background-color: #def2c8;
+	background-color: #ed6a5a;
 	margin: 0;
 }
 
-h1 {
+header {
+/*	background-color: white;*/
+/*	position: fixed;*/
+	top: 0;
+	width: 100%;
 	text-align: center;
-	color: white;
 }
 
-p {
-	text-align: left;
-	color: black;
-}
+/* Fonts */
+
+
 
 /* Images */
 
@@ -30,11 +31,10 @@ img {
 .wrapper {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	gap: 10px;
+/*	gap: 10px;*/
 	grid-auto-rows: minmax(100px, auto);
 /*	border: 3px solid; */
 /*	background-color: red; */
-	padding: 5px; /* to see the boxes inside the wrapper */
 }
 
 
@@ -42,18 +42,26 @@ img {
 	grid-column: 1 / 4;
 	grid-row: 1;
 /*	border: 3px dotted;*/
-	background-color: #ed6a5a;
+	background-color: #1b1b3a;
 	color: white;
+/*	padding-top: 70px;*/
 }
 
-.call-to-action p {
+.call-to-action h1 {
 	color: white;
 	text-align: center;
 }
 
+.call-to-action p {
+	text-align: center;
+}
+
+.call-to-action a {
+	color: white;
+}
 .carousel {
 	grid-column: 1 / 4;
-	grid-row: 2;
+	grid-row: 4;
 /*	border: 3px dotted;*/
 /*	background-color: green;*/
 }
@@ -61,20 +69,24 @@ img {
 .services-offered {
 	grid-column: 1 / 4;
 	grid-row: 3;
-	border: 3px dotted;
-	background-color: green;
+/*	border: 3px dotted;*/
+	background-color: #def2c8;
 }
 
 .master-photo {
 	grid-column: 3 / 4;
-	grid-row: 4;
+	grid-row: 2;
 /*	border: 3px dotted;*/
 /*	background-color: lightblue;*/
 }
 
+.master-photo img {
+	width: 100%;
+}
+
 .master-description {
 	grid-column: 1 / 3;
-	grid-row: 4;
+	grid-row: 2;
 /*	border: 3px dotted;*/
 /*	background-color: gray;*/
 }

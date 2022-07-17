@@ -4,6 +4,7 @@
 
 
 4. Fonts scheme
+Still have to choose what type of font would be suitable.
 
 3. ~~Colour scheme~~
 3-5 colours
