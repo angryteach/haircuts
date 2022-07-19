@@ -3,7 +3,7 @@
 ## Current
 
 
-4. Fonts scheme
+4. ~~Fonts scheme~~
 Still have to choose what type of font would be suitable.
 
 3. ~~Colour scheme~~
@@ -21,4 +21,4 @@ coolors.co
 
 ## Long-term
 
-5. Media queries responsive design
+5. ~~Media queries responsive design~~
