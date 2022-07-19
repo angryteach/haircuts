@@ -204,3 +204,58 @@ Make modification according to your needs. */
 	90% { left: 0; }
 }
 /* ----- end of slideshow stylings ----- */
+
+/* Media query stuff */
+
+@media (max-width: 400px) {
+	.call-to-action {
+		grid-column: 1 / 4;
+		grid-row: 1;
+	/*	border: 3px dotted;*/
+		background-color: #1b1b3a;
+		color: white;
+		text-align: center;
+	/*	padding-top: 70px;*/
+	}
+
+
+	.carousel {
+		grid-column: 1 / 4;
+		grid-row: 6;
+	/*	border: 3px dotted;*/
+	/*	background-color: green;*/
+	}
+
+	.services-offered {
+		grid-column: 1 / 4;
+		grid-row: 5;
+	/*	border: 3px dotted;*/
+		background-color: #def2c8;
+	}
+
+	.master-photo {
+		grid-column: 1 / 4;
+		grid-row: 2;
+	/*	border: 3px dotted;*/
+	/*	background-color: lightblue;*/
+	}
+
+	.master-photo img {
+		width: 100%;
+	}
+
+	.master-description {
+		grid-column: 1 / 4;
+		grid-row: 4;
+	/*	border: 3px dotted;*/
+	/*	background-color: gray;*/
+	}
+
+	.certificates {
+		grid-column: 1 / 4;
+		grid-row: 7;
+	/*	border: 3px dotted;*/
+	/*	background-color: blue;*/
+	}
+}
+
