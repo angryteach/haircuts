@@ -17,3 +17,5 @@ It has been implemented with a simple CSS keyframes slideshow. It is basic but r
 ## Responsive Design
 
 I used a simple @media query so that elements occupy a single row by themselves when the screen width gets less than 600px. To accomplish that I had to place every div class inside @media and only change row order as well as fill every column (out of 3 available) within those rows with elements. I am sure I could have done a better job with area names or even flex but I have to research that subject further.
+
+By adding another coulmn I was able fit a photo element and re-flow some text with much more control and still avoid a messy grid set-up. Now the page looks a bit more fluid and easy on the eye.

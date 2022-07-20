@@ -93,23 +93,24 @@ img {
 }
 
 .master-description {
-	grid-column: 2 / 3;
+	grid-column: 2 / 4;
 	grid-row: 2;
 }
 
 .master-photo {
-	grid-column: 3 / 5;
+	grid-column: 4 / 5;
 	grid-row: 2;
 }
 
 .master-photo img {
-	width: 50%;
+	width: 100%;
 }
 
 .services-offered {
-	grid-column: 2 / 4;
+	grid-column: 1 / 5;
 	grid-row: 3;
 	background-color: #def2c8;
+	padding-left: 25%;
 }
 
 .carousel {
@@ -195,7 +196,8 @@ Make modification according to your needs. */
 
 /* Media query stuff */
 
-@media (max-width: 400px) {
+/* For mobile users with screens less than 420px wide. */
+@media (max-width: 420px) {
 	.call-to-action {
 		grid-column: 1 / 5;
 		grid-row: 1;
@@ -227,6 +229,7 @@ Make modification according to your needs. */
 		grid-column: 1 / 5;
 		grid-row: 4;
 		background-color: #def2c8;
+		padding: 0;
 	}
 
 	.certificates {
@@ -234,4 +237,99 @@ Make modification according to your needs. */
 		grid-row: 6;
 	}
 }
+
+/* For tablet users with screens less than 920px wide. */
+@media (min-width: 420px) and (max-width: 920px) {
+	.call-to-action {
+		grid-column: 1 / 4;
+		grid-row: 1;
+		background-color: #1b1b3a;
+		color: white;
+		text-align: center;
+	}
+
+	.call-to-action > h1 {
+		padding: 5% 0;
+		margin: 0;
+	}
+
+	.call-to-action > p {
+		padding: 0;
+		margin: 0;
+	}
+
+	.master-photo {
+		grid-column: 4 / 5;
+		grid-row: 1;
+	}
+
+	.master-photo img {
+		width: 100%;
+	}
+
+	.master-description {
+		grid-column: 1 / 5;
+		grid-row: 2;
+	}
+
+	.carousel {
+		grid-column: 1 / 5;
+		grid-row: 5;
+	}
+
+	.services-offered {
+		grid-column: 1 / 5;
+		grid-row: 4;
+		background-color: #def2c8;
+		padding: 0;
+	}
+
+	.certificates {
+		grid-column: 1 / 5;
+		grid-row: 6;
+	}
+}
+
+/* For laptop users with screens less than 1400px wide. */
+@media (min-width: 920px) and (max-width: 1400px) {
+	.call-to-action {
+		grid-column: 1 / 5;
+		grid-row: 1;
+		background-color: #1b1b3a;
+		color: white;
+		text-align: center;
+	}
+
+	.master-photo {
+		grid-column: 3 / 5;
+		grid-row: 2;
+	}
+
+	.master-photo img {
+		width: 100%;
+	}
+
+	.master-description {
+		grid-column: 1 / 3;
+		grid-row: 2;
+	}
+
+	.carousel {
+		grid-column: 1 / 5;
+		grid-row: 5;
+	}
+
+	.services-offered {
+		grid-column: 1 / 5;
+		grid-row: 4;
+		background-color: #def2c8;
+		padding: 0;
+	}
+
+	.certificates {
+		grid-column: 1 / 5;
+		grid-row: 6;
+	}
+}
+
 

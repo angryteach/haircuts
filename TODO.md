@@ -2,11 +2,11 @@
 
 ## Current
 
-1. Make services-offered the width of the page but the content centred.
-2. Re-size photos and get them to respond to screen size changes.
+1. ~~Make services-offered the width of the page but the content centred.~~
+2. ~~Re-size photos and get them to respond to screen size changes.~~
 3. Prettify the list in services-offered.
 4. Add footer and social links.
-5. Add top\bottom margins to photos so that they adhere to gaps between sections and paragraphs.
+5. ~~Add top\bottom margins to photos so that they adhere to gaps between sections and paragraphs.~~
 
 
 4. ~~Fonts scheme~~
