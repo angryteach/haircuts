@@ -64,6 +64,10 @@ a {
 	color: white;
 }
 
+ul {
+	columns: 4 auto;
+}
+
 ul li {
 	font-size: 1.8rem;
 	font-family: 'contents', arial;
@@ -93,29 +97,31 @@ img {
 }
 
 .master-description {
-	grid-column: 2 / 4;
+	grid-column: 2 / 3;
 	grid-row: 2;
 }
 
 .master-photo {
-	grid-column: 4 / 5;
+	grid-column: 3 / 4;
 	grid-row: 2;
 }
 
 .master-photo img {
-	width: 100%;
+	width: 80%;
+	padding: 10%;
 }
 
 .services-offered {
 	grid-column: 1 / 5;
 	grid-row: 3;
 	background-color: #def2c8;
-	padding-left: 25%;
+	padding: 0 25%;
 }
 
 .carousel {
-	grid-column: 1 / 5;
+	grid-column: 2 / 3;
 	grid-row: 4;
+	padding: 10%;
 }
 
 .certificates {
@@ -139,7 +145,7 @@ img {
 	justify-content: center;
 	align-items: center;
 	margin: auto;
-	width: 40%;
+	width: 100%;
 	height: 100%;
 }
 /* ----- end of container stylings ----- */
@@ -213,6 +219,7 @@ Make modification according to your needs. */
 
 	.master-photo img {
 		width: 100%;
+		padding: 0;
 	}
 
 	.master-description {
@@ -223,6 +230,7 @@ Make modification according to your needs. */
 	.carousel {
 		grid-column: 1 / 5;
 		grid-row: 5;
+		padding: 0;
 	}
 
 	.services-offered {
@@ -265,6 +273,7 @@ Make modification according to your needs. */
 
 	.master-photo img {
 		width: 100%;
+		padding: 0;
 	}
 
 	.master-description {
@@ -275,6 +284,7 @@ Make modification according to your needs. */
 	.carousel {
 		grid-column: 1 / 5;
 		grid-row: 5;
+		padding: 0;
 	}
 
 	.services-offered {
@@ -300,13 +310,21 @@ Make modification according to your needs. */
 		text-align: center;
 	}
 
+	ul {
+		columns: 2 auto;
+		padding: 0 30% 0 10%;
+		list-style-type: "\2661";
+	}
+
 	.master-photo {
 		grid-column: 3 / 5;
 		grid-row: 2;
 	}
 
 	.master-photo img {
-		width: 100%;
+		width: 70%;
+		float: right;
+		padding: 5%;
 	}
 
 	.master-description {
@@ -315,15 +333,15 @@ Make modification according to your needs. */
 	}
 
 	.carousel {
-		grid-column: 1 / 5;
+		grid-column: 1 / 3;
 		grid-row: 5;
+		padding: 10%;
 	}
 
 	.services-offered {
 		grid-column: 1 / 5;
 		grid-row: 4;
 		background-color: #def2c8;
-		padding: 0;
 	}
 
 	.certificates {
